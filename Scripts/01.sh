@@ -11,8 +11,8 @@ sudo ubuntu-drivers install -y
 # Install Required Packages
 sudo apt install unzip ffmpeg -y
 sudo apt-get install nginx -y
-sudo systemctl start nginx -y
-sudo systemctl enable nginx -y
+sudo systemctl start nginx
+sudo systemctl enable nginx
 
 # Clone Project Repositories from Github
 git clone https://github.com/skywalker290/RealVC.git  # Repository For RVC cloning files
