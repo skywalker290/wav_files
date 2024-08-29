@@ -25,6 +25,7 @@ chmod +x wav_files/setup.sh wav_files/setup2.sh Server/server_refresh.sh RealVC/
 # Executing TTS Setup File 
 cd wav_files
 ./setup.sh
+cd ~
 
 
 # Execute Next File 02.sh

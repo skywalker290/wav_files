@@ -25,3 +25,4 @@ cd ~
 # Start the Server 
 cd Server/
 ./server_refresh.sh
+cd ~
