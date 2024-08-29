@@ -27,5 +27,11 @@ cd wav_files
 ./setup.sh
 cd ~
 
+# Setup TTS Part-2
+cd wav_files/
+./setup2.sh
+cd ~
+
+
 
 # Execute Next File 02.sh
