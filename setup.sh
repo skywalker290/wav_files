@@ -5,4 +5,5 @@ sudo apt install -y make build-essential libssl-dev zlib1g-dev libbz2-dev librea
 curl https://pyenv.run | bash
 echo -e 'export PYENV_ROOT="$HOME/.pyenv"\nexport PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
 echo -e 'eval "$(pyenv init --path)"\neval "$(pyenv init -)"' >> ~/.bashrc
+cd ~
 exec "$SHELL"
